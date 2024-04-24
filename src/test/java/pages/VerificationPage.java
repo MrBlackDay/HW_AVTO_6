@@ -1,7 +1,6 @@
-package Pages;
+package pages;
 
-import Data.DataHelper;
-import Pages.DashboardPage;
+import data.DataHelper;
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Condition.visible;

@@ -1,10 +1,5 @@
-package Data;
+package data;
 
-import io.restassured.builder.RequestSpecBuilder;
-import io.restassured.filter.log.LogDetail;
-import io.restassured.http.ContentType;
-import io.restassured.specification.RequestSpecification;
-import lombok.Data;
 import lombok.Value;
 
 import java.util.Random;

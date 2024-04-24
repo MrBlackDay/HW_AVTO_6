@@ -1,12 +1,12 @@
-package Tests;
+package tests;
 
-import Data.DataHelper;
-import Pages.DashboardPage;
-import Pages.LoginPage;
+import data.DataHelper;
+import pages.DashboardPage;
+import pages.LoginPage;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import static Data.DataHelper.*;
+import static data.DataHelper.*;
 import static com.codeborne.selenide.Selenide.*;
 import static org.junit.jupiter.api.Assertions.assertAll;
 import static org.junit.jupiter.api.Assertions.assertEquals;
